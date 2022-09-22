@@ -34,15 +34,15 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  var suma = x + y;
+  var sum = x + y;
   return suma;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  var resta = x - y;
-  return resta;
+  var diferencia = x - y;
+  return diferencia;
 }
 
 function multiplica(x, y) {
@@ -55,16 +55,16 @@ function multiplica(x, y) {
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  let dividir = x / y;
-  return dividir;
+  let division = x / y;
+  return division;
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  let respuestaSonIguales = x === y;
-  return respuestaSonIguales;
+  let igual = x === y;
+  return igual;
 }
 
 function tienenMismaLongitud(str1, str2) {
