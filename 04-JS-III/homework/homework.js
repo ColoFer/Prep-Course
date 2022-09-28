@@ -194,7 +194,15 @@ function mesesDelAño(array) {
 function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
-  // Tu código:
+  // Tu código:ç
+  var nuevoArray = [];
+  for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+    if (element > 100) {
+      nuevoArray.push(element);
+    }
+  }
+  return nuevoArray;
 }
 
 function breakStatement(numero) {
@@ -205,6 +213,15 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+  var nuevoArray = [];
+  for (let i = 0; i < 10; i++) {
+    if (numero === i) {
+      return "Se interrumpió la ejecución";
+    }
+    numero = numero + 2;
+    nuevoArray.push(numero);
+  }
+  return nuevoArray;
 }
 
 function continueStatement(numero) {
@@ -214,6 +231,14 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
+  var nuevoArray = [];
+  for (let i = 0; i < 10; i++) {
+    if (i != 5) {
+      numero = numero + 2;
+      nuevoArray.push(numero);
+    }
+  }
+  return nuevoArray;
 }
 
 // No modificar nada debajo de esta línea
