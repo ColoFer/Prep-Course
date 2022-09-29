@@ -233,10 +233,11 @@ function continueStatement(numero) {
   // Tu código:
   var nuevoArray = [];
   for (let i = 0; i < 10; i++) {
-    if (i != 5) {
-      numero = numero + 2;
-      nuevoArray.push(numero);
+    if (i === 5) {
+      continue;
     }
+    numero = numero + 2;
+    nuevoArray.push(numero);
   }
   return nuevoArray;
 }
